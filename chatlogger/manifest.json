@@ -1,0 +1,18 @@
+{
+	"manifest_version": 3,
+	"name": "Chat log for PonyMeadow",
+	"version": "1.0",
+	"description": "Логирует сообщения из чата игры",
+	"permissions": ["activeTab", "storage"],
+	"host_permissions": ["http://46.174.49.240:3000/*"],
+	"content_scripts": [
+	{
+		"matches": ["http://46.174.49.240:3000/*"],
+		"js": ["content.js"],
+		"run_at": "document_end"
+	}
+	],
+	"action": {
+	
+	}
+}
