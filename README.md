@@ -10,7 +10,7 @@
 
 ## Установка
 
-1. Клонируйте репозиторий: `git clone https://github.com/...`
+1. Клонируйте репозиторий: `git clone https://github.com/...`  или скачайте архив через кнопку <>Code -> Download ZIP
 
 2. В Chrome перейдите в `chrome://extensions/`
 
